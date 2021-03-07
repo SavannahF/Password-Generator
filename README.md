@@ -1,92 +1,55 @@
-# 03 JavaScript: Password Generator
+# Password-Generator
 
-## Your Task
+## Description 
 
-This week’s homework requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+The purpose of the project is to create a Portfolio page showcasing my work and experience. The webpage should include About Me, inks to previous work, and contact info sections. I will continue to add to this Portfolio as my skills progress, and I have more application links. 
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+https://savannahf.github.io/Portfolio/
 
-## User Story
+Screen Shots can be found below:
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+[Assets/Portfolio_ScreenShot_1.jpeg] "https://user-images.githubusercontent.com/67602838/109406681-24afb300-7949-11eb-8d67-1113a2e14e9a.png"
 
-## Acceptance Criteria
+[Assets/Portfolio_ScreenShot_2.jpeg]"https://user-images.githubusercontent.com/67602838/109406683-28433a00-7949-11eb-9eca-268846591902.png"
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+[Assets/Portfolio_ScreenShot_3.jpeg]"https://user-images.githubusercontent.com/67602838/109406686-2c6f5780-7949-11eb-8b93-3cda059d1d3c.png"
+
+
+## Installation
+
+No steps are required to install other than to visit the webpage. 
+
+
+## Usage 
+
+No usage instructions are required other than to visit the webpage. 
 ```
 
-## Mock-Up
+## Credits
 
-The following image shows the web application's appearance and functionality:
+This project was created using some of the new skills I have learned about HTML and CSS. Resources include online CSS and HTML guides, as well as lessons in Flexbox and how to structure the images. GIMP used for thumbnail imagery, and all photographs are my own. 
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
 
-## Grading Requirements
+## License
 
-This homework is graded based on the following criteria: 
+MIT License
 
-### Technical Acceptance Criteria: 40%
+Copyright (c) [2021] [Savannah L. Fortson]
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

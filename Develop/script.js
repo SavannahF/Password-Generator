@@ -99,6 +99,25 @@ function generatePassword() {
   else if (confirmLowercase) {
       choices = lower;
   };
+  
+  // password variable
+  var password = [];
+
+  // Random characters returned for whichever types user choice above
+  for (var i = 0; i < enter; i++) {
+   var pickChoices = choices[Math.floor(Math.random() * choices.length)];
+   password.push(pickChoices);
+  };
+ 
+  var ps = password.join("");
+    UserInput(ps);
+    return ps;
+  
+}
+
+function UserInput(ps) {
+      document.getElementById("password").textContent = ps;
+}
 
 // Write password to the #password input
 function writePassword() {
